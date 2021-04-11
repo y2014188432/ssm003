@@ -20,13 +20,13 @@
     <!-- 配置MyBatis SqlSessionFactory -->
     <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
         <property name="dataSource" ref="dataSource"/>
-        <property name="mapperLocations" value="classpath:com/southwind/repository/*.xml"/>
+        <property name="mapperLocations" value="classpath:com/y/repository/*.xml"/>
         <property name="configLocation" value="classpath:config.xml"/>
     </bean>
 
     <!-- 扫描自定义的Mapper接口 -->
     <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
-        <property name="basePackage" value="com.southwind.repository"/>
+        <property name="basePackage" value="com.y.repository"/>
     </bean>
 
 </beans>

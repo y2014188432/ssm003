@@ -1,6 +1,6 @@
-package com.southwind.service;
+package com.y.service;
 
-import com.southwind.entity.User;
+import com.y.entity.User;
 
 import java.util.List;
 

@@ -1,6 +1,6 @@
-package com.southwind.repository;
+package com.y.repository;
 
-import com.southwind.entity.User;
+import com.y.entity.User;
 
 import java.util.List;
 

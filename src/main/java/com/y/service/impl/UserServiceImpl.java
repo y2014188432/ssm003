@@ -1,8 +1,8 @@
-package com.southwind.service.impl;
+package com.y.service.impl;
 
-import com.southwind.entity.User;
-import com.southwind.repository.UserRepository;
-import com.southwind.service.UserService;
+import com.y.entity.User;
+import com.y.repository.UserRepository;
+import com.y.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

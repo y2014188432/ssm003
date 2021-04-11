@@ -1,6 +1,6 @@
-package com.southwind.test;
+package com.y.test;
 
-import com.southwind.repository.UserRepository;
+import com.y.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 
 public class Test1 {
